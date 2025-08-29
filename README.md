@@ -40,7 +40,7 @@ What is Event Bubbling and how does it work?
 ans:
 Event Bubbling holo ekta process jekhane kono element e event hole, oi event ta prothome oi element e, tarpor tar parent e, tarpor grandparent e... evabe DOM tree er root porjonto execute hoy. Eita niche theke upore ekta bubble uthar moto kaj kore.
 #Kivabe kaj kore:
-Jodi <span> ke click kora hoi jeta <p> er modhye ar <p> ta <div> er modhye, tahole event ta prothome <span> e, erpore <p> e, finally <div> e fire hobe.
+Jodi span-tag ke click kora hoi jeta p-tag er modhye ar p-tag ta div er modhye, tahole event ta prothome span e, erpore p-tag e, finally div e fire hobe.
 
 qsn no - 4
 ----------
