@@ -17,9 +17,32 @@
       referrerpolicy="no-referrer"
   />
 </head>
-<body>
-  <h1>Emergency Hotline</h1>
-
+<body class="bg-gray-100 sm:p-8">
+      <nav
+        class="max-w-6xl mx-auto mb-8 flex flex-col md:flex-row items-center justify-between gap-4 px-4"
+      >
+        <div class="flex items-center space-x-4">
+          <img src="./assets/logo-dark.png" class="h-12" alt="" />
+          <h1 class="text-2xl font-extrabold text-green-900">
+            Emergency <br />
+            Services
+          </h1>
+        </div>
+        <div class="flex items-center space-x-4">
+          <div class="bg-cyan-200 px-4 py-2 rounded-full flex items-center gap-2">
+            <span id="hearts-count" class="font-bold">0</span>
+            <img src="./assets/heart.png" class="h-8" alt="">
+          </div>
+          <div class="bg-cyan-200 px-4 py-2 rounded-full flex items-center gap-2">
+            <span id="coins-count" class="font-bold">100</span>
+            <img src="./assets/coin.png" class="h-8" alt="">
+          </div>
+          <div class="flex items-center text-white px-3 p-2 bg-green-600 rounded-full">
+            <span id="copy-count" class="font-bold">0</span>
+            <span class="ml-2">Copies</span>
+          </div>
+        </div>
+      </nav>
   <script src="./script.js"></script>
 </body>
 </html>
